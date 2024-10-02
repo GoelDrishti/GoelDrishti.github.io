@@ -1967,11 +1967,22 @@ html {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
 }
 
+
+
+@media screen and (max-width: 736px) {
+
+	.container {
+		display: block;
+	}
+
+}
+
+
 /* social media links */
 .social-links {
     display: flex;
     justify-content: center; /* Center align below your image and text */
-    margin-top: 10px;
+    margin: 10px;
 }
 
 .social-links a {
